@@ -5,7 +5,7 @@ body {
 }
 
 input {
-    background-color: #BACCD7;
+    background-color: rgb(255, 255, 255, 0.1);
     border-radius: 5px;
     margin: 5px;
     width: 400px;
@@ -13,12 +13,14 @@ input {
     border: 0;
 }
 
-input:focus {
+input:focus{
+    background-color: white;
     outline: 2px solid #4169E1;
 }
 
 label {
-    margin-top: 5px;
+    transform: translateX(10px) translateY(28px);
+    cursor: text;
 }
 
 u:hover {
@@ -100,7 +102,9 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 button {
+    margin-top: 10px;
     margin: 20px;
     margin-bottom: 0;
     width: 100px;
@@ -110,6 +114,7 @@ button {
     border: 2px solid white;
     border-radius: 7px;
 }
+
 button:hover {
     color: #040404;
     background-color: white;
