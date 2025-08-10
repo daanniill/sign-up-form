@@ -12,6 +12,18 @@ input {
     height: 25px;
 }
 
+label {
+    margin-top: 5px;
+}
+
+u:hover {
+    background-color: white;
+    color: #040404;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.25s;
+}
+
 .background_container {
     height: 100vh;
     width: 100%;
@@ -48,7 +60,8 @@ main {
 .sign_up {
     height: 90vh;
     width: 40%;
-    min-width: 300px;
+    min-width: 500px;
+    min-height: 500px;
     border-radius: 30px;
     margin: 20px;
     background-color: #040404;
@@ -65,7 +78,6 @@ main {
     flex-direction: column;
     margin: 30px;
     margin-top: 10px;
-
 }
 
 .title {
@@ -77,8 +89,24 @@ main {
     font-size: 15px;
 }
 
-.sign_up button {
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
     margin: 20px;
     width: 100px;
-    height: 50px;
+    height: 40px;
+    background-color: #040404;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+button:hover {
+    color: #040404;
+    background-color: white;
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
 }
