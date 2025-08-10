@@ -4,6 +4,14 @@ body {
     position: relative;
 }
 
+input {
+    background-color: #BACCD7;
+    border-radius: 10px;
+    margin: 5px;
+    width: 400px;
+    height: 25px;
+}
+
 .background_container {
     height: 100vh;
     width: 100%;
@@ -47,4 +55,30 @@ main {
     opacity: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sign_up_form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 10px;
+
+}
+
+.title {
+    font-size: 30px;
+}
+
+.description {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.sign_up button {
+    margin: 20px;
+    width: 100px;
+    height: 50px;
 }

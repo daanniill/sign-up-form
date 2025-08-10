@@ -6,22 +6,26 @@
     <title>Sign Up</title>
     <script src="scripts.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="background_container">
-        <img class="background_img" src="assets/background (1).jpeg">
+        <img class="background_img" src="assets/background.jpeg">
     </div>
     <main>
         <div class="sign_up">
             <div class="title">Start Your Adventure!</div>
-            <form action="example.com/path" method="post">
-                <label for="username">Username</labe>
+            <div class="description">Find new worlds and explore distant horizons today!</div>
+            <form class="sign_up_form" action="example.com/path" method="post">
+                <label for="username">Username:</label>
                 <input type="text" id="username" name="username">
-                <label for="user_email">Email Address:</labe>
+                <label for="user_email">Email Address:</label>
                 <input type="email" id="user_email" name="email">
-                <label for="user_password">Password: </labe>
+                <label for="user_password">Password: </label>
                 <input type="password" id="user_password" name="password">
-                <label for="user_password_confirm">Confirm your Password: </labe>
+                <label for="user_password_confirm">Confirm your Password: </label>
                 <input type="password" id="user_password_confirm" name="password_confirm">
                 <button type="submit">Sign Up</button>
             </form>
