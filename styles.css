@@ -20,10 +20,12 @@ body {
 img { /* Convert the inline image to a block-level element */
     box-shadow: 0 0 10px 10px #2b2a2a;
     border-radius: 40px;
-    width: 1450px;
-    height: 600px;
-    object-fit: auto;
-    object-position: 100%;
+    width: 100%;
+    height: 100%;
+    max-width: 1450px;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
 }
 
 main {
