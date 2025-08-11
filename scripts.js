@@ -19,4 +19,12 @@ function btn_anim() {
         })
     })
 }
+
+function form_page() {
+    document.querySelector(".sign_up_form").addEventListener("submit", function(e) {
+        e.preventDefault(); // Stop default submit
+        window.location.href = "form_page.html"; 
+    });
+}
+form_page()
 btn_anim()
