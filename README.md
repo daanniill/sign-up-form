@@ -1,6 +1,8 @@
-#Sign-Up Form
+# Sign-Up Form
 
 A sleek and animated **sign-up form** web page featuring a custom background image, smooth animations, and responsive design.
+
+
 Image by [@daanniill](https://github.com/daanniill).
 Created by [@daanniill](https://github.com/daanniill).
 
