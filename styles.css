@@ -45,6 +45,14 @@ input:hover {
     outline: 1px solid lightgray;
 }
 
+input:user-invalid {
+    outline: 1px solid red;
+}
+
+input:user-valid {
+    outline: 1px solid lightgreen;
+}
+
 label {
     transform: translateX(10px) translateY(28px);
     cursor: text;
@@ -120,6 +128,8 @@ main {
 }
 
 .sign_up_form {
+    animation-name: fadeInRight;
+    animation-duration: 2s;
     display: flex;
     flex-direction: column;
     margin: 30px;
@@ -127,7 +137,7 @@ main {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .description {
@@ -139,6 +149,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.logo {
+    font-family: "Bytesized", sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 button {
@@ -160,3 +176,4 @@ button:hover {
     transition: 0.5s;
     cursor: pointer;
 }
+
