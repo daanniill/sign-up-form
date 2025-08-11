@@ -184,3 +184,12 @@ button:hover {
     cursor: pointer;
 }
 
+.credits {
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+#icon {
+    width: 12px;
+    height: 12px;
+}
