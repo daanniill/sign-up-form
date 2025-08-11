@@ -99,6 +99,7 @@ u:hover {
     object-fit: cover;
     object-position: center;
     transition: 0.5s;
+    overflow: hidden;
 }
 
 .background_img:hover {
@@ -132,6 +133,7 @@ main {
     align-items: center;
     font-family: "Montserrat", sans-serif;
     z-index: 2;
+    overflow: hidden;
 }
 
 .sign_up_form {
@@ -141,6 +143,7 @@ main {
     flex-direction: column;
     margin: 30px;
     margin-top: 10px;
+    overflow: hidden;
 }
 
 .title {
