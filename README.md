@@ -7,7 +7,7 @@ Created by [@daanniill](https://github.com/daanniill).
 
 ## 📸 Preview
 
-![Background Preview](assets/background.jpeg)
+![Background Preview](assets/preview.jpeg)
 
 ---
 
